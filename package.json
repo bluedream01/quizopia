@@ -1,18 +1,17 @@
 {
-  "homepage": "https://bluedream01.github.io/quizopia/",
+  "homepage": "https://bluedream01.github.io/quizopia",
   "name": "quizopia",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "predeploy": "npm run build && copy dist\\index.html dist\\404.html",
-  "deploy": "gh-pages -d dist",
-  "lint": "eslint .",
-  "preview": "vite preview"
-},
-
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build && copy dist\\index.html dist\\404.html",
+    "deploy": "gh-pages -d dist",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "react": "^19.1.1",
     "react-confetti": "^6.4.0",
